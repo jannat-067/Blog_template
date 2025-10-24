@@ -2,23 +2,86 @@
 <html>
 <head>
   <title>Simple Product Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .product-card {
+      background-color: #fff;
+      max-width: 300px;
+      margin: 20px auto;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .product-card h3 {
+      color: #444;
+      margin: 10px 0 5px;
+    }
+
+    .product-card p {
+      color: #666;
+      margin: 5px 0;
+    }
+
+    .product-card button {
+      padding: 8px 16px;
+      margin: 8px 5px 0;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .product-card button:first-of-type {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .product-card button:last-of-type {
+      background-color: #1873dbff;
+      color: white;
+    }
+
+    .product-card button:hover {
+      opacity: 0.9;
+    }
+  </style>
 </head>
 <body>
 
   <h1>Product Card</h1>
 
-  
-  <div>
+  <div class="product-card">
     <img src="https://www.shoezone.com/Images/Static/Blog/best-office-shoes-for-women-8.jpg" 
-         alt="women shoe" 
-         height="150">
+         alt="women shoe">
     
-    <h3>pump shoe for women</h3>
-    <p>Price: $120</p>
+    <h3>Pump Shoe for Women</h3>
+    <p><strong>Price:</strong> $120</p>
     <p>Lightweight runner with breathable upper and comfortable sole.</p>
+    
     <button>Add to Cart</button>
     <button>Buy Now</button>
   </div>
 
 </body>
 </html>
+
