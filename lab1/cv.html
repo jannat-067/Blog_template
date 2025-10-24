@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Company Founders Table</title>
+  <title>Rahim Uddin - CV</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f6f8;
+      background-color: #f8f9fa;
+      color: #333;
       margin: 0;
       padding: 30px;
     }
 
-    h2 {
+    h1, h2 {
       text-align: center;
       color: #2c3e50;
     }
 
+    .personal-info {
+      max-width: 600px;
+      margin: 0 auto 40px;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .personal-info p {
+      margin: 8px 0;
+      line-height: 1.5;
+    }
+
     table {
       width: 80%;
-      margin: 20px auto;
+      margin: 0 auto;
       border-collapse: collapse;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
       background-color: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
 
     th, td {
-      padding: 12px 15px;
+      border: 1px solid #ccc;
+      padding: 10px;
       text-align: center;
-      border: 1px solid #ddd;
     }
 
     th {
       background-color: #2980b9;
-      color: #ffffff;
+      color: white;
     }
 
     tr:nth-child(even) {
@@ -39,68 +54,61 @@
     }
 
     tr:hover {
-      background-color: #e1f5fe;
-    }
-
-    td[rowspan] {
-      background-color: #dff0d8;
-      font-weight: bold;
-    }
-
-    tfoot td {
-      font-weight: bold;
-      background-color: #ecf0f1;
+      background-color: #e0f7fa;
     }
   </style>
 </head>
 <body>
 
-  <h2>Company Founders</h2>
+  <h1>Personal Information</h1>
 
+  <div class="personal-info">
+    <p><strong>Name:</strong> Rahim Uddin</p>
+    <p><strong>Email:</strong> rahim.uddin@example.com</p>
+    <p><strong>Father’s Name:</strong> Md. Karim Uddin</p>
+    <p><strong>Mother’s Name:</strong> Salma Khatun</p>
+    <p><strong>Phone:</strong> +880 1234 567890</p>
+    <p><strong>Address:</strong> 45 North Road, Dhaka, Bangladesh</p>
+    <p><strong>Date of Birth:</strong> January 10, 2002</p>
+    <p><strong>Nationality:</strong> Bangladeshi</p>
+    <p><strong>Religion:</strong> Islam</p>
+    <p><strong>Marital Status:</strong> Unmarried</p>
+  </div>
+
+  <h2>Education</h2>
   <table>
-    <thead>
-      <tr>
-        <th>No.</th>
-        <th>Full Name</th>
-        <th>Position</th>
-        <th>Salary</th>
-        <th>Type</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Bill Gates</td>
-        <td>Founder Microsoft</td>
-        <td>$1000</td>
-        <td rowspan="4">Company Founder</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Steve Jobs</td>
-        <td>Founder Apple</td>
-        <td>$1200</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Larry Page</td>
-        <td>Founder Google</td>
-        <td>$1100</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>Mark Zuckerberg</td>
-        <td>Founder Facebook</td>
-        <td>$1300</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td colspan="4" align="right">Total Expense:</td>
-        <td>$4600</td>
-      </tr>
-    </tfoot>
+    <tr>
+      <th>Degree</th>
+      <th>Institution</th>
+      <th>Board/University</th>
+      <th>Year</th>
+      <th>Result</th>
+    </tr>
+    <tr>
+      <td>BSc in CSE</td>
+      <td>Comilla University</td>
+      <td>Comilla University</td>
+      <td>2024</td>
+      <td>CGPA 3.75</td>
+    </tr>
+    <tr>
+      <td>HSC</td>
+      <td>Dhaka College</td>
+      <td>Dhaka Board</td>
+      <td>2020</td>
+      <td>GPA 5.00</td>
+    </tr>
+    <tr>
+      <td>SSC</td>
+      <td>Ideal School and College</td>
+      <td>Dhaka Board</td>
+      <td>2018</td>
+      <td>GPA 5.00</td>
+    </tr>
   </table>
 
 </body>
 </html>
+
+
+
